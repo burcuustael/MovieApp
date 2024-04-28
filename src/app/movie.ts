@@ -1,11 +1,6 @@
 export class Movie{
     id: number;
     name : string;
-
-    constructor(id:number,name: string) {
-        this.id = id;
-        this.name = name;
-
-    }
-
+    description:string;
+    imageUrl:string;
 }
